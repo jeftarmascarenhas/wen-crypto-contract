@@ -1,8 +1,8 @@
-# Sample Hardhat Project
+# Wen Ticket
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Networks
 
-Try running some of the following tasks:
+- [Goerli v1](https://goerli.etherscan.io/address/0x8980a13b14712a12ca62814618c09f1bceca1967#readContract)
 
 ```shell
 npx hardhat help
