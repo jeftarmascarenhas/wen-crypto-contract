@@ -52,7 +52,7 @@ contract WenTicket is ERC721A, Ownable {
         return buyers;
     }
 
-    function pickWinner() public onlyOwner {
+    function pickWinner() external onlyOwner {
         uint256 index = _randNumber(buyers.length);
         randomResult = buyers[index];
 
