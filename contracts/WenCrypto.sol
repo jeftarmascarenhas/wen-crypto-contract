@@ -7,8 +7,6 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract WenTicket is ERC721A, Ownable {
     event PickWinner(address winner);
 
-    bytes32 internal keyhash;
-    uint256 internal fee;
     address public randomResult;
 
     uint16 public MAX_SUPPLY = 500;
